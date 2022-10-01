@@ -8,5 +8,6 @@ public class ListExample {
         List<String> jvmLanguages = List.of("Java", "Kotlin", "Groovy");
 
         jvmLanguages.forEach(System.out::println);
+        System.out.println(jvmLanguages.size());
     }
 }
