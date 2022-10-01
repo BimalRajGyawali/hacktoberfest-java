@@ -1,5 +1,6 @@
 package org.example.collections;
 
+import java.util.Arrays;
 import java.util.List;
 
 public class ListExample {
@@ -9,5 +10,8 @@ public class ListExample {
 
         jvmLanguages.forEach(System.out::println);
         System.out.println(jvmLanguages.size());
+
+        List<String> javaFrameworks = Arrays.asList("Spring", "Micronaut", "Quarkus");
+        javaFrameworks.forEach(System.out::println);
     }
 }
