@@ -12,6 +12,7 @@ public class ListExample {
         System.out.println(jvmLanguages.size());
 
         List<String> javaFrameworks = Arrays.asList("Spring", "Micronaut", "Quarkus", "Javalin");
+
         javaFrameworks.forEach(System.out::println);
     }
 }

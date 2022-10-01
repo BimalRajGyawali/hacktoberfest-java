@@ -2,6 +2,9 @@
 
 This repo is made for Hacktoberfest 2022 for Java developers to contribute.
 
+
+![alt hacktoberfest-banner](./hacktoberfest-banner.jpg)
+
 #### Steps for contribution
 
 1. Fork the repo
