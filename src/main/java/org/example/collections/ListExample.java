@@ -11,7 +11,8 @@ public class ListExample {
         jvmLanguages.forEach(System.out::println);
         System.out.println(jvmLanguages.size());
 
-        List<String> javaFrameworks = Arrays.asList("Spring", "Micronaut", "Quarkus");
+        List<String> javaFrameworks = Arrays.asList("Spring", "Micronaut", "Quarkus", "Javalin");
+
         javaFrameworks.forEach(System.out::println);
     }
 }
