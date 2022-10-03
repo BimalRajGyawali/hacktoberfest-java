@@ -13,7 +13,7 @@ password.
 
 import java.util.Scanner;
 
-class Simple_Login {
+class SimpleLogin {
 	String name,pw,uname,upassword;
 	boolean flag1=true,flag2=true;
 	Scanner scan=new Scanner(System.in);
@@ -44,7 +44,7 @@ class Simple_Login {
 		return flag2;
 	}
 	public static void main(String[] args) {
-		Simple_Login ln=new Simple_Login();
+		SimpleLogin ln=new SimpleLogin();
 		ln.register();
 		while(ln.checkName()){
 			System.out.println("Again enter username");
