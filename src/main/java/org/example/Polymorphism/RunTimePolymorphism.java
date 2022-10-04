@@ -6,27 +6,27 @@ public class RunTimePolymorphism {
 
         // Now we will be calling print methods inside main() method
 
-        a = new subclass1();
-        a.Print();
+        a = new SubClass1();
+        a.display();
 
-        a = new subclass2();
-        a.Print();
+        a = new SubClass2();
+        a.display();
     }
 }
 
     class Parent {
 
     // Method of parent class
-        void Print()    {   System.out.println("parent class"); }
+        void display()    {   System.out.println("Parent Class"); }
     }
 
 // Class 2
-    class subclass1 extends Parent {
-        void Print()    {   System.out.println("subclass1");     }
+    class SubClass1 extends Parent {
+        void display()    {   System.out.println("SubClass-1");     }
     }
 
 // Class 3
-    class subclass2 extends Parent {
+    class SubClass2 extends Parent {
 
-        void Print()    {   System.out.println("subclass2");    }
+        void display()    {   System.out.println("SubClass-2");    }
     }
