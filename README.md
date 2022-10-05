@@ -1,13 +1,20 @@
-<div align="center"><h1>Hacktoberfest-Java</h1></div>
+# Welcome to `Hacktoberfest-Java`
 
-This repo is made for Hacktoberfest 2022 for Java developers to contribute.
-It is a beginner friendly repo.
-
+## Description 
+A repository on GitHub to encourage and include novice contributors to open source projects.
 
 ![alt hacktoberfest-banner](./hacktoberfest-banner.jpg)
 
-For contribution, please see [CONTRIBUTING.md](https://github.com/BimalRajGyawali/hacktoberfest-java/blob/main/CONTRIBUTING.md)
+## Pre-requisite
+Java
 
+## Features 
+Beginner-friendly
+Offers mentorship to other contributors
+
+
+Refer [CONTRIBUTING.md](https://github.com/BimalRajGyawali/hacktoberfest-java/blob/main/CONTRIBUTING.md) before sending a PR.
+ 
 
 Create your profile for Hacktoberfest [here](https://hacktoberfest.com/profile/).
 
