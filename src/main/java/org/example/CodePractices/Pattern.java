@@ -6,7 +6,7 @@ step 3 - what to print
 
 */
 
-public class pattern {
+public class Pattern {
 	public static void main(String[] args) {
 		pattern4(5);
 	}
