@@ -144,4 +144,3 @@ class QuizCheckResult
         ob.printScore();
     }
 }
-
