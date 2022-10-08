@@ -1,4 +1,4 @@
-public class palindrome_linkedList {
+public class PalindromeLinkedList {
     public class ListNode{
         int val;
         ListNode next;

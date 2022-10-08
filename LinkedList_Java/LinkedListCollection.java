@@ -1,5 +1,5 @@
 import java.util.*;
-public class linked_list_collection {
+public class LinkedListCollection {
     public static void main(String[] args) {
         LinkedList<String> list=new LinkedList<>();
         list.addFirst("a");

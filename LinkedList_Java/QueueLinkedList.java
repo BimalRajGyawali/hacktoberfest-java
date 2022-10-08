@@ -1,4 +1,4 @@
-public class queue_linked_list {
+public class QueueLinkedList {
     static class Node{
          int data;
          Node next;

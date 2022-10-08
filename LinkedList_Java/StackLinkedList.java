@@ -1,6 +1,6 @@
 import java.util.Stack;
 
-public class stack_linked_list {
+public class StackLinkedList {
     static class Node{
         int data;
         Node next;

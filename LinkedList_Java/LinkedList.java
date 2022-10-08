@@ -1,14 +1,14 @@
-public class reverse_linked_list {
+public class LinkedList {
     Node head;
     private int size;
-    reverse_linked_list(){
+    linked_list(){
      this.size=0;
     }
     class Node{
-        int data;
+        String data;
         Node next;
 
-        Node(int data){
+        Node(String data){
             this.data=data;
             this.next=null;
             size++;
@@ -16,7 +16,7 @@ public class reverse_linked_list {
     }
 
     //add first
-    public void addFirst(int data) {
+    public void addFirst(String data) {
         Node newNode=new Node(data);
         if(head==null)
         {
@@ -28,7 +28,7 @@ public class reverse_linked_list {
     }
 
     //add last
-    public void addLast(int data){
+    public void addLast(String data){
         Node newNode=new Node(data);
         if(head==null)
         {
@@ -90,44 +90,26 @@ public class reverse_linked_list {
     public int getSize() {
         return size;
     }
-
-    //reversing
-    public void reverseIterate() {
-        if(head==null||head.next==null){
-            return;
-        }
-        Node prevNode=head;
-        Node currNode=head.next;
-        while(currNode!=null){
-            Node nextNode=currNode.next;
-            currNode.next=prevNode;
-
-            //update
-            prevNode=currNode;
-            currNode=nextNode;
-        }
-        head.next=null;
-        head=prevNode;
-    }
-
-    public Node reverseRecursive(Node head){
-        if(head==null||head.next==null){
-            return head;
-        }
-        Node newHead=reverseRecursive(head.next);
-        head.next.next=head;
-        head.next=null;
-        return newHead;
-    }
     public static void main(String[] args) {
-        reverse_linked_list list=new reverse_linked_list();
-        list.addFirst(4);
-        list.addFirst(3);
-        list.addFirst(2);
-        list.addFirst(1);
+        linked_list list=new linked_list();
+        list.addFirst("a");
+        list.addFirst("is");
         list.printList();
-        //list.reverseIterate();
-        list.head=list.reverseRecursive(list.head);
+        
+        list.addLast("List");
         list.printList();
+        
+        list.addFirst("This");
+        list.printList();
+        
+        list.deleteFirst();
+        list.printList();
+        
+        list.deleteLast();
+        list.printList();
+
+        System.out.println(list.getSize());
+        list.addFirst("This");
+        System.out.println(list.getSize());
     }
 }

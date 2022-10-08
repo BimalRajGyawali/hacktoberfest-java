@@ -1,4 +1,4 @@
-class remove_nth_node_from_end{
+class RemoveNthNodeFromEnd{
     public class ListNode{
         int val;
         ListNode next;

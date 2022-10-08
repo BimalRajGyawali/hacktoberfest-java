@@ -1,14 +1,14 @@
-public class linked_list {
+public class ReverseLinkedList {
     Node head;
     private int size;
-    linked_list(){
+    reverse_linked_list(){
      this.size=0;
     }
     class Node{
-        String data;
+        int data;
         Node next;
 
-        Node(String data){
+        Node(int data){
             this.data=data;
             this.next=null;
             size++;
@@ -16,7 +16,7 @@ public class linked_list {
     }
 
     //add first
-    public void addFirst(String data) {
+    public void addFirst(int data) {
         Node newNode=new Node(data);
         if(head==null)
         {
@@ -28,7 +28,7 @@ public class linked_list {
     }
 
     //add last
-    public void addLast(String data){
+    public void addLast(int data){
         Node newNode=new Node(data);
         if(head==null)
         {
@@ -90,26 +90,44 @@ public class linked_list {
     public int getSize() {
         return size;
     }
-    public static void main(String[] args) {
-        linked_list list=new linked_list();
-        list.addFirst("a");
-        list.addFirst("is");
-        list.printList();
-        
-        list.addLast("List");
-        list.printList();
-        
-        list.addFirst("This");
-        list.printList();
-        
-        list.deleteFirst();
-        list.printList();
-        
-        list.deleteLast();
-        list.printList();
 
-        System.out.println(list.getSize());
-        list.addFirst("This");
-        System.out.println(list.getSize());
+    //reversing
+    public void reverseIterate() {
+        if(head==null||head.next==null){
+            return;
+        }
+        Node prevNode=head;
+        Node currNode=head.next;
+        while(currNode!=null){
+            Node nextNode=currNode.next;
+            currNode.next=prevNode;
+
+            //update
+            prevNode=currNode;
+            currNode=nextNode;
+        }
+        head.next=null;
+        head=prevNode;
+    }
+
+    public Node reverseRecursive(Node head){
+        if(head==null||head.next==null){
+            return head;
+        }
+        Node newHead=reverseRecursive(head.next);
+        head.next.next=head;
+        head.next=null;
+        return newHead;
+    }
+    public static void main(String[] args) {
+        reverse_linked_list list=new reverse_linked_list();
+        list.addFirst(4);
+        list.addFirst(3);
+        list.addFirst(2);
+        list.addFirst(1);
+        list.printList();
+        //list.reverseIterate();
+        list.head=list.reverseRecursive(list.head);
+        list.printList();
     }
 }

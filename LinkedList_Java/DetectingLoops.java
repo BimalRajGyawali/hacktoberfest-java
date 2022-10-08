@@ -1,4 +1,4 @@
-public class detecting_loops {
+public class DetectingLoops {
     class ListNode{
         int val;
         ListNode next;
