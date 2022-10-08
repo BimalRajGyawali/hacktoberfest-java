@@ -1,11 +1,11 @@
 import java.util.*;
 class QuizCheckResult
 {
-    public static final int PASSWORD_LENGTH = 8;
+    public static final int PasswordLength = 8;
 
-    public static boolean is_Valid_Password(String password) {
+    public static boolean isValidPassword(String password) {
 
-        if (password.length() < PASSWORD_LENGTH) return false;
+        if (password.length() < PasswordLength) return false;
 
         int charCount = 0;
         int numCount = 0;
@@ -13,8 +13,8 @@ class QuizCheckResult
 
             char ch = password.charAt(i);
 
-            if (is_Numeric(ch)) numCount++;
-            else if (is_Letter(ch)) charCount++;
+            if (isNumeric(ch)) numCount++;
+            else if (isLetter(ch)) charCount++;
             else return false;
         }
 
@@ -22,24 +22,24 @@ class QuizCheckResult
         return (charCount >= 2 && numCount >= 2);
     }
 
-    public static boolean is_Letter(char ch) {
+    public static boolean isLetter(char ch) {
         ch = Character.toUpperCase(ch);
         return (ch >= 'A' && ch <= 'Z');
     }
 
 
-    public static boolean is_Numeric(char ch) {
+    public static boolean isNumeric(char ch) {
 
         return (ch >= '0' && ch <= '9');
     }
 
-	// creating array object.
+    // creating array object.
     char A[][],K[];
     int S[],n;
     
     void input()
     {
-    	// create object of scanner class.
+        // create object of scanner class.
         Scanner sc = new Scanner(System.in);
         
         // enter number of participants.
@@ -49,7 +49,7 @@ class QuizCheckResult
         // condition of least and heighest input
         if(n<4 || n>10)
         {
-        	// input the range here.
+            // input the range here.
             System.out.print("Input size out of range : ");
             System.exit(0);
         }
@@ -84,7 +84,7 @@ class QuizCheckResult
             S[i] = 0;
             for(int j=0; j<5; j++)
             {
-            	// Checking if Answer of the participants match with the key or not
+                // Checking if Answer of the participants match with the key or not
                 if(A[i][j] == K[j]) 
                 {
                     S[i]++;
@@ -103,7 +103,7 @@ class QuizCheckResult
             System.out.println("\tParticipant "+(i+1)+" = "+S[i]);
             if(S[i]>max)
             {
-            	// Storing the Highest Score
+                // Storing the Highest Score
                 max = S[i]; 
             }
         }
@@ -133,12 +133,12 @@ class QuizCheckResult
                 "Input a password (You are agreeing to the above Terms and Conditions.): ");
         String s = input.nextLine();
 
-        if (is_Valid_Password(s)) {
+        if (isValidPassword(s)) {
             System.out.println("Password is valid: " + s);
         } else {
             System.out.println("Not a valid password: " + s);
         }
-    	QuizCheckResult ob = new QuizCheckResult();
+        QuizCheckResult ob = new QuizCheckResult();
         ob.input();
         ob.Score();
         ob.printScore();
