@@ -1,5 +1,8 @@
 
 public class Encapsulation {
+
+    // Encapsulation is a mechanism of wrapping code and data together in a single unit
+
     static class Area {
         int length;
         int breadth;

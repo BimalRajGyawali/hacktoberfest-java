@@ -2,6 +2,9 @@
 
 public class ClassesObjects{
 
+    // Class is a blueprint of object
+    // Object is an instance of a class that has behaviour and state
+
     static class Student {
 
         String name;
