@@ -1,5 +1,5 @@
 
-public class Encapsulation {
+public class Areas {
 
     // Encapsulation is a mechanism of wrapping code and data together in a single unit
 

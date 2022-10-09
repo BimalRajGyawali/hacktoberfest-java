@@ -1,6 +1,6 @@
 
 
-public class ClassesObjects{
+public class Students{
 
     // Class is a blueprint of object
     // Object is an instance of a class that has behaviour and state

@@ -1,4 +1,4 @@
-public class Abstraction {
+public class CarModel {
 
     // Abstraction is a process of data hiding (focuses on security)
 

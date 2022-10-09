@@ -1,4 +1,4 @@
-public class Polymorphism {
+public class SumPoly {
 
     public static class Sum {
         // Polymorphism is the concept in which we can perform a single action in different ways
