@@ -1,7 +1,7 @@
 /*
     Write a program to print greatest number among three numbers.
 */
-
+package org.example.basics;
 
 class MaxAmongThree
 {

@@ -2,6 +2,8 @@
    Write a program to convert given decimal number to equivalent binary number.
 */
 
+package org.example.basics;
+
 class DecimalToBinary
 {
  

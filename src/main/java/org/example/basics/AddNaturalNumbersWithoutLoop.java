@@ -1,3 +1,4 @@
+package org.example.basics;
 /*
      Write a program to add numbers from 1 to n without using loop. 
 */

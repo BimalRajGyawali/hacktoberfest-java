@@ -1,7 +1,7 @@
 /* 
      Write a program to determine whether a entered number is even or odd.
 */
-
+package org.example.basics;
 
 class EvenOdd
 {

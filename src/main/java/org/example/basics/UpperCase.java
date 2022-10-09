@@ -1,18 +1,18 @@
 /*
    Write a program to check whether entered charecter is a upper case letter or not
 */
-
+package org.example.basics;
 
 import java.util.*;
-class UpperCase
+public class UpperCase
 {
 
     public static void main(String args[ ])
     {
- 
+
         Scanner sc = new Scanner(System.in);
         char chr=sc.next().charAt(0);
-      
+
            if(chr>='A' && chr<='Z')
              System.out.println("Upper Case Letter");
      }

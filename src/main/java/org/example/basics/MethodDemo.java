@@ -1,8 +1,9 @@
 /*
    Write a method to add two numbers.
 */
+package org.example.basics;
 
-class Methoddemo
+class MethodDemo
 {
 
        static int  add(int a,int b)  // Method to add two numbers 

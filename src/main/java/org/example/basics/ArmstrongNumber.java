@@ -1,3 +1,5 @@
+package org.example.basics;
+
 /*
      Write a program to check whether entered number is armstrong or not.
 */

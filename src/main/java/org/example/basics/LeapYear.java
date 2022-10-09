@@ -1,8 +1,9 @@
 /*
     Write a program to determine whether entered year is a leap year or ordinary year.
 */
+package org.example.basics;
 
-class Leapyear
+public class LeapYear
 {
  
      public static void main(String args[ ])

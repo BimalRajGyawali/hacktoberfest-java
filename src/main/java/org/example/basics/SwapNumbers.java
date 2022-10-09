@@ -1,11 +1,12 @@
 /*
    Write a program to swap two numbers.
 */
+package org.example.basics;
 
 
 class SwapNumbers
 {
-     public static void main(String args[ ])
+     public static void main(String[] args)
      {
          int a,b,temp;
  

@@ -1,7 +1,7 @@
 /*  
      Write a program to print all the upper case and lower case letters.
 */
-
+package org.example.basics;
 
 class PrintAlphabets
 {

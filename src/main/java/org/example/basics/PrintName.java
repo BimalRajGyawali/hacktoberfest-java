@@ -1,6 +1,7 @@
 /*
    Write a program to store and display your name using charecter array.
 */
+package org.example.basics;
 
 import java.util.*;
 

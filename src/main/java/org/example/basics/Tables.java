@@ -2,8 +2,9 @@
     Write a program to print table of entered number 
 */
 
+package org.example.basics;
 
-class Tables
+public class Tables
 {
    public static void main(String args[ ])
    {

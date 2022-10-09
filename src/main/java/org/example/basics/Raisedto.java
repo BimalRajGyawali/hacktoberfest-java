@@ -2,12 +2,13 @@
    Two numbers are entered through the keyboard. Write a program to find the value of one number
     raised to the power of another.  (Do not use Java built-in method)
 */
+package org.example.basics;
 
 import java.util.*;
 class Raisedto
 {
       
-      public static void main(String args[ ])
+      public static void main(String[] args)
       {
           int a,b,res=1;
           Scanner sc = new Scanner(System.in);

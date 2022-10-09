@@ -2,6 +2,7 @@
    Write a program to check whether entered number is prime or not.
 */
 
+package org.example.basics;
 
 import java.util.*;
 class PrimeNumbers

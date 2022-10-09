@@ -1,10 +1,11 @@
 /*
-    Write a program to take 10 numbers as input from user and display addition of even numbers among them using array.
+    Write a program to take 10 numbers as input from user and display addition of them using array.
 */
+package org.example.basics;
 
 import java.util.*;
 
-class SumOfEveninArray
+public class SumOfArray
 {
 
      public static void main(String[] args)
@@ -21,13 +22,10 @@ class SumOfEveninArray
         
            for(int i=0;i<10;i++)
           {
-             if(a[i]%2==0)
-             { 
-                  sum+=a[i];
-             }
+              sum+=a[i];
           }
  
-          System.out.println("Addition of even elements in array is : "+sum);
+          System.out.println("Addition of elements in array is : "+sum);
      }
 }
 
@@ -47,7 +45,7 @@ Enter 10 numbers
 8
 9
 10
-Addition of even elements in array is : 30
+Addition of elements in array is : 55
 
 ===================================== */
 

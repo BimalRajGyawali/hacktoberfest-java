@@ -1,6 +1,7 @@
 /*
    Write a program to demonstrate matrix addition.
 */
+package org.example.basics;
 
 import java.util.*;
 

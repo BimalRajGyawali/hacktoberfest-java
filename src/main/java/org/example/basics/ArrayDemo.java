@@ -1,6 +1,7 @@
 /*
     Write a program to illustrate array in java.
 */
+package org.example.basics;
 
 
 import java.util.*;

@@ -1,7 +1,7 @@
 /*  
     Display the most famous phrase of beginning any programming language, "Hello World" (without Quotes).
 */
-
+package org.example.basics;
 
 class PrintHelloWorld
 {

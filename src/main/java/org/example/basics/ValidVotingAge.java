@@ -2,9 +2,10 @@
     Write a program which takes age from user as input and determines whether 
     user is valid for voting or not.
 */
+package org.example.basics;
 
 
-class ValidVotingAge
+public class ValidVotingAge
 {
  
     public static void main(String args[ ])

@@ -1,6 +1,7 @@
 /* 
    Write a program to demonstrate different variables in java 
 */
+package org.example.basics;
 
 class Variables
 {

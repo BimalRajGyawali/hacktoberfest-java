@@ -3,10 +3,11 @@
    negative and zeros entered.
 
 */
+package org.example.basics;
 
 
 import java.util.*;
-class SignCount
+public class SignCount
 {
    public static void main(String args[ ])
    {

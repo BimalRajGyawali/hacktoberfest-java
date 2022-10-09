@@ -2,10 +2,12 @@
     Write a program to demonstrate 2-D array in java.
 */
 
+package org.example.basics;
+
 import java.util.*;
 
 
-class TwoDimensionalArray
+public class TwoDimensionalArray
 {
  
      public static void main(String args[ ])

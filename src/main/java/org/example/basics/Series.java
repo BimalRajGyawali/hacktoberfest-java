@@ -3,10 +3,11 @@
     1 + 1/2 + 1/3 + 1/4 + 1/5 +…………1/n
 */
 
+package org.example.basics;
 
-class Series
+public class Series
 {
-     public static void main(String args[ ])
+     public static void main(String[] args)
      {
         int n=Integer.parseInt(args[0]);
         float sum=0;
