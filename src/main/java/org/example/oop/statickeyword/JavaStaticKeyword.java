@@ -1,3 +1,4 @@
+package org.example.oop.statickeyword;
 public class JavaStaticKeyword {
     // Static method
     static void myStaticMethod() {
