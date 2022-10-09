@@ -1,4 +1,4 @@
-package LinkedList;
+package org.example.datastructures.linkedlist;
 
 // LinkedList class has all the methods to work with a linkedList
 public class LinkedList 
