@@ -1,3 +1,4 @@
+package org.example.basics;
 public class RemoveDuplicate {
     public static boolean[] map= new boolean[26];
 
