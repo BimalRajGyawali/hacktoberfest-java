@@ -1,3 +1,11 @@
+package org.example.basics;
+
+/*
+     Write a program on command line arg.
+*/
+
+
+
 class Cmdline
 {
 public static void main(String args[])

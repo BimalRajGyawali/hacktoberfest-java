@@ -1,3 +1,11 @@
+package org.example.basics;
+
+/*
+     Write a program to print greatest number.
+*/
+
+
+
 class Greatest
 {
 public static void main(String args[])

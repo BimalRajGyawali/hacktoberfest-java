@@ -1,3 +1,11 @@
+
+package org.example.basics;
+
+/*
+     Write a program on hierarchical inheritance.
+*/
+
+
 class StudentInfo
 {
  int roll=1;

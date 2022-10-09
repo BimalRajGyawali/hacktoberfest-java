@@ -1,3 +1,11 @@
+package org.example.basics;
+
+/*
+     Write a program to print array user input.
+*/
+
+
+
 class Array1
 {
 public static void main(String args[])

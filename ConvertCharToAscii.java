@@ -1,3 +1,11 @@
+package org.example.basics;
+
+/*
+     Write a program to Convert char into ascii.
+*/
+
+
+
 import java.util.Scanner;
 
 class Ascii

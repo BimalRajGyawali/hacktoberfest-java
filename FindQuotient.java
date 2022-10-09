@@ -1,3 +1,11 @@
+package org.example.basics;
+
+/*
+     Write a program to find quotient.
+*/
+
+
+
 import java.util.Scanner;
 
 class Quotient

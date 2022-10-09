@@ -1,3 +1,11 @@
+package org.example.basics;
+
+/*
+     Write a program to check whether entered number is Prime or not.
+*/
+
+
+
 import java.util.*;
 
 class Prime

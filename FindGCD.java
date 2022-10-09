@@ -1,3 +1,11 @@
+package org.example.basics;
+
+/*
+     Write a program to find the greatest common divisor.
+*/
+
+
+
 import java.util.*;
 class GCD
 {

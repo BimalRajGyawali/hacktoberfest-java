@@ -1,3 +1,11 @@
+package org.example.basics;
+
+/*
+     Write a program to print number in reverse.
+*/
+
+
+
 import java.util.Scanner;
 
 class Reverse

@@ -1,3 +1,12 @@
+package org.example.basics;
+
+/*
+     Write a program to print prime number from n to n.
+*/
+
+
+
+
 import java.util.*;
 class Prime 
 {

@@ -1,3 +1,11 @@
+package org.example.basics;
+
+/*
+     Write a program to find longest common multiple.
+*/
+
+
+
 import java.util.*;
 class LCM
 {

@@ -1,3 +1,11 @@
+package org.example.basics;
+
+/*
+     Write a program to check Alphabet or not.
+*/
+
+
+
 import java.util.Scanner;
 
 class Alphabet

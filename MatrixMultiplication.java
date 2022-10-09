@@ -1,3 +1,11 @@
+
+package org.example.basics;
+
+/*
+     Write a program to print matrix 
+*/
+
+
 import java.util.Scanner;
  
 class MatrixMultiplication

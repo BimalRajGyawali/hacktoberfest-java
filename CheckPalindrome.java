@@ -1,3 +1,11 @@
+package org.example.basics;
+
+/*
+     Write a program to check whether entered number is Palindrome or not.
+*/
+
+
+
 import java.util.*;
 
 class Palindrome

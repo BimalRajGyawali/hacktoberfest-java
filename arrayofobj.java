@@ -1,3 +1,8 @@
+package org.example.basics;
+
+
+
+
 class Arrayobj
 {
 public static void main(String args[])
