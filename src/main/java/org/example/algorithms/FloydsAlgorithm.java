@@ -3,7 +3,7 @@
 */
 
 import java.util.*;
-public class FloydsClass
+public class FloydsAlgorithm
 {
     static final int MAX = 20;
     static int n;                           //No. of vertices of G

@@ -4,7 +4,7 @@
 
 import java.util.*;
 
-public class DijkstraClass{
+public class DijkstraAlgorithm {
     final static int MAX = 20;
     final static int infinity = 9999;
     static int n;                           //No. of vertices of G
