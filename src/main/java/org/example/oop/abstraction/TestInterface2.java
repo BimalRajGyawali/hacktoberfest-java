@@ -1,4 +1,4 @@
-package org.example.oop.inheritance;
+package org.example.oop.abstraction;
 
 interface Bank{
     float rateOfInterest();
