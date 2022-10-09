@@ -1,3 +1,4 @@
+package org.example.oop.abstraction;
 
 interface Reptiles {
     void eat();
