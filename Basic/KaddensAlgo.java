@@ -1,4 +1,4 @@
-public class kaddensalgo {
+public class KaddensAlgo {
     public static void main(String[] args) {
         int[] n = {-9,4,7,-4,-6,8,6};
         int maxSum=Integer.MIN_VALUE;
