@@ -1,3 +1,5 @@
+package org.example.designpatterns.factorymethod;
+
 public class NotificationFactory {
     Notification createNotification(String type) {
         switch (type) {

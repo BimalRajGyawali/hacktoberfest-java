@@ -1,3 +1,5 @@
+package org.example.designpatterns.factorymethod;
+
 public class Test {
     public static void main(String[] args) {
         NotificationFactory nf = new NotificationFactory();
