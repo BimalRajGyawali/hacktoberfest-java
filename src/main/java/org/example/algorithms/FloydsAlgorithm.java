@@ -1,3 +1,4 @@
+package org.example.algorithms;
 /*
      Write a program to implement All-Pairs Shortest Paths problem using Floyd's algorithm. 
 */

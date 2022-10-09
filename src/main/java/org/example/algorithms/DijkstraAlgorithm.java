@@ -1,3 +1,4 @@
+package org.example.algorithms;
 /*
      Write a program to implement Dijkstra's Algorithm. 
 */
