@@ -1,3 +1,5 @@
+package org.example.oop.polymorphism;
+
 public class SumPoly {
 
     public static class Sum {

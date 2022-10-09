@@ -1,3 +1,5 @@
+package org.example.oop.inheritance;
+
 public class Teachers {
 
     // Inheritance is a mechanism in which one class(child class) acquires the properties and behaviour of other class(parent class).

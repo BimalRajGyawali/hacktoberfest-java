@@ -1,3 +1,5 @@
+package org.example.oop.classandobject;
+
 public class Students{
 
     // Class is a blueprint of object

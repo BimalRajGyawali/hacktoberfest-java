@@ -1,3 +1,5 @@
+package org.example.oop.abstraction;
+
 public class CarModel {
 
     // Abstraction is a process of data hiding (focuses on security)
