@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Alphabet
+class Main
 {
 public static void main(String args[])
 {
