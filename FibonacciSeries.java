@@ -1,3 +1,4 @@
+package org.example.algorithms;
 public class FibonacciSeries {
     
 public static int Fibonacci(int n)
