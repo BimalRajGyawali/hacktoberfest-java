@@ -14,7 +14,7 @@ public class Series
  
        for(int i=1;i<=n;i++)
        {
-           sum=sum+float(1f/i);
+           sum=sum+ 1.0f/i;
         }
        
        System.out.println(sum);
