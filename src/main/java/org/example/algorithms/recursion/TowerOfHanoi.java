@@ -1,3 +1,5 @@
+package org.example.algorithms.recursion;
+
 public class TowerofHanoi {
     public static void towerOfHanoi(int n,String src, String helper,String dest) {
         if(n==1){
