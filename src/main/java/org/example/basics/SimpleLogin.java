@@ -1,4 +1,4 @@
-//Simple Login Logic program using Java
+package org.example.basics;//Simple Login Logic program using Java
 /*
 Write a program that prints checks username and password
 - First asks the user to register a username and password.
