@@ -1,4 +1,4 @@
-package org.example.BinarySearchTree;
+package org.example.datastructures.binarysearchtree;
 
 import java.util.Scanner;
 

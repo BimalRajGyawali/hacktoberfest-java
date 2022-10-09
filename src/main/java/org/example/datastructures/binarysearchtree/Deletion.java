@@ -1,8 +1,8 @@
-package org.example.BinarySearchTree;
+package org.example.datastructures.binarysearchtree;
 
 import java.util.Scanner;
 
-public class deletion {
+public class Deletion {
     class TreeNode {
         int data;
         TreeNode left, right;
@@ -82,7 +82,7 @@ public class deletion {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        deletion obj = new deletion();
+        Deletion obj = new Deletion();
         int x;
         while (true) {
             System.out.print("Enter element : ");

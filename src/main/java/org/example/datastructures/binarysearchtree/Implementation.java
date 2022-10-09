@@ -1,8 +1,8 @@
-package org.example.BinarySearchTree;
+package org.example.datastructures.binarysearchtree;
 
 import java.util.Scanner;
 
-public class implementation {
+public class Implementation {
     static class TreeNode {
         int data;
         TreeNode left, right;
@@ -86,7 +86,7 @@ public class implementation {
     }
 
     public static void main(String[] args) {
-        implementation obj = new implementation();
+        Implementation obj = new Implementation();
         Scanner sc = new Scanner(System.in);
         int x;
         do {
