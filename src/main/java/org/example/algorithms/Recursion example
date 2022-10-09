@@ -1,0 +1,31 @@
+public class palindrome
+{
+    public static int check(int number,int temporary)
+    {
+            if(number==0)
+                return temporary;
+            temporary = ( temporary * 10) + (number%10);
+            return check(number/10,temporary);
+    }
+    public static void main(String [] args)
+    {
+        int n=121;
+        int temp = check (n,0);
+        if(temp==n)
+        {
+            System.out.println("yes");
+        }
+        else {
+            System.out.println("No");
+        }
+        int num=345;
+        int t=check(num,0);
+        if(t==num)
+        {
+            System.out.println("yes");
+        }
+        else {
+            System.out.println("No");
+        }
+    }
+}
