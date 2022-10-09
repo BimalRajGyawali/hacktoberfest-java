@@ -9,7 +9,7 @@ if(n == 0)
     return 1;
 }
 
-int factorialNM1 = factorial(n-1); //---> Factorial(n-1);
+int factorialNM1 = factorial(n-1); //---> factorial(n-1);
 
 int factorialN = n * factorialNM1;
 
