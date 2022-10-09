@@ -1,5 +1,7 @@
-import java.util.*;  
-class KeithNumberExample1  
+package org.example.basics.keith;
+
+import java.util.*;
+public class KeithNumber
 {  
 //user-defined function that checks if the given number is Keith or not  
 static boolean isKeith(int x)  
