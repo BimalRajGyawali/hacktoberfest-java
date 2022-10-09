@@ -1,4 +1,4 @@
-package org.example.Enums;
+package org.example.enums;
 
 public enum Day {
     SUNDAY,
