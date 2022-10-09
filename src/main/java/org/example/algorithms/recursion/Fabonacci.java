@@ -1,3 +1,5 @@
+package org.example.algorithms.recursion;
+
 public class Fabonacci {
     public static void printFib(int a,int b,int n) {
         if(n==0){
