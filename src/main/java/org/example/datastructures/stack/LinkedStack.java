@@ -7,7 +7,7 @@
  *
  * @author Zohaib Hassan Soomro
  */
-package stack;
+package org.example.datastructures.stack;
 
 import java.util.*;
 
