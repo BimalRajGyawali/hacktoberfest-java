@@ -1,3 +1,5 @@
+package org.example.algorithms.sorting;
+
 public class QuickSort {
 
     public static int partition(int arr[],int low,int high) {

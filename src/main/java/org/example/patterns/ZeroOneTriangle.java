@@ -1,3 +1,5 @@
+package org.example.patterns;
+
 import java.util.*;
 public class ZeroOneTriangle {    
     public static void main(String[] args){

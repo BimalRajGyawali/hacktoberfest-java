@@ -1,17 +1,18 @@
+package org.example.patterns;
+
 import java.util.*;
-public class FloydsTriangle {
+public class InvertedHalfPyramid {
     public static void main(String[] args){
 
-        // FLOYD's TRIANGLE
+        // INVERTED HALF PYRAMID
         System.out.print("Enter the numbers of rows:");
         Scanner sc = new Scanner(System.in);
         int n= sc.nextInt();
-        int num=1;
-        for(int i=1; i<=n; i++){
-            for(int j =1; j<=i; j++){
-                System.out.print(num + " ");
-                num++;
-            }
+
+        for(int i=n; i>=1; i--){
+            for(int j=i; j>=1; j--){
+                System.out.print("*");
+            } 
             System.out.println();
         }
     }
@@ -19,8 +20,8 @@ public class FloydsTriangle {
 
 // OUTPUT:
 // Enter the numbers of rows:5
-// 1 
-// 2 3 
-// 4 5 6 
-// 7 8 9 10 
-// 11 12 13 14 15 
+// *****
+// ****
+// ***
+// **
+// *
