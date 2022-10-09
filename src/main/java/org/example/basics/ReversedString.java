@@ -1,3 +1,5 @@
+package org.example.basics;
+
 public class ReversedString {
 	
 	public static void main(String[] args) {
