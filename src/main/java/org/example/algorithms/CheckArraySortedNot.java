@@ -1,4 +1,4 @@
-import package org.example.algorithms;
+package org.example.algorithms;
 public class  CheckArraySortedNot{
     
 
