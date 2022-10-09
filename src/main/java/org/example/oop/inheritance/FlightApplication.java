@@ -1,4 +1,4 @@
-package org.example.inheritance;
+package org.example.oop.inheritance;
 
 public class FlightApplication {
     public static void main(String[] args) {
