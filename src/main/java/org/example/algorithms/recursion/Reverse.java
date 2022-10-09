@@ -1,3 +1,5 @@
+package org.example.algorithms.recursion;
+
 public class Reverse {
     public static void reverse(String str,int idx) {
         if(idx==0){
