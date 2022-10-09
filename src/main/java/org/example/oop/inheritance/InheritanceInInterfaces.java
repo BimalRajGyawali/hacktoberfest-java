@@ -1,3 +1,5 @@
+package org.example.oop.inheritance;
+
 //Java program to implement inheritance in interfaces
 interface SampleInterface{
     void method1();

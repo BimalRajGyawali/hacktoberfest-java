@@ -1,3 +1,5 @@
+package org.example.oop.inheritance;
+
 class Employee {
   String name;
   int id;

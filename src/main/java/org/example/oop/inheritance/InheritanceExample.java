@@ -1,3 +1,4 @@
+package org.example.oop.inheritance;
 class Base{
     public int x;
 
