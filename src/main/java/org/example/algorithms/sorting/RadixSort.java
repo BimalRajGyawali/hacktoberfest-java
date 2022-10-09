@@ -1,9 +1,8 @@
-// Radix sort Java implementation
+package org.example.algorithms.sorting;// Radix sort Java implementation
 
-import java.io.*;
 import java.util.*;
 
-class Radix {
+public class RadixSort {
 
 	// A utility function to get maximum value in arr[]
 	static int getMax(int arr[], int n)
