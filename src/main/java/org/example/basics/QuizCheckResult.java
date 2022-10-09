@@ -1,5 +1,7 @@
+package org.example.basics;
+
 import java.util.*;
-class QuizCheckResult
+public class QuizCheckResult
 {
     public static final int PasswordLength = 8;
 

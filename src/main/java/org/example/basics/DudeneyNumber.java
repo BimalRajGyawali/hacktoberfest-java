@@ -1,3 +1,5 @@
+package org.example.basics;
+
 import java.util.Scanner;
 
 public class DudeneyNumber
