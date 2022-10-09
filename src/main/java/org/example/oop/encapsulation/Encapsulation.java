@@ -1,3 +1,5 @@
+package org.example.oop.encapsulation;
+
 /*
 Encap is the variables of a class will be 
 hidden from other classes, and can be accessed only through th emthods of their current class
