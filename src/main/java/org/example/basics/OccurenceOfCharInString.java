@@ -1,4 +1,4 @@
-// Java program to count frequencies of
+package org.example.basics;// Java program to count frequencies of
 // characters in string using Hashmap
 import java.io.*;
 import java.util.*;

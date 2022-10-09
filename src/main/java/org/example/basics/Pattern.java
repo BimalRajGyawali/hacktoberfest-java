@@ -1,4 +1,4 @@
-/*
+package org.example.basics;/*
 Solve any pattern question with this trick
 step 1 - no of lines = no of rows = no of time outer for loop will run
 step 2 - indentify for every row number how many columns are there
