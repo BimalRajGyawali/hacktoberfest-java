@@ -1,3 +1,5 @@
+package org.example.datastructures.linkedlist.algo;
+
 public class PalindromeLinkedList {
     public class ListNode{
         int val;

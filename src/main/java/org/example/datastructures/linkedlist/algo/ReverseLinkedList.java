@@ -1,7 +1,9 @@
+package org.example.datastructures.linkedlist.algo;
+
 public class ReverseLinkedList {
     Node head;
     private int size;
-    reverse_linked_list(){
+    ReverseLinkedList(){
      this.size=0;
     }
     class Node{
@@ -120,7 +122,7 @@ public class ReverseLinkedList {
         return newHead;
     }
     public static void main(String[] args) {
-        reverse_linked_list list=new reverse_linked_list();
+        ReverseLinkedList list=new ReverseLinkedList();
         list.addFirst(4);
         list.addFirst(3);
         list.addFirst(2);

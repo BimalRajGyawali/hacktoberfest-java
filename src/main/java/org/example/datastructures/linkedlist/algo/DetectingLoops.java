@@ -1,3 +1,5 @@
+package org.example.datastructures.linkedlist.algo;
+
 public class DetectingLoops {
     class ListNode{
         int val;

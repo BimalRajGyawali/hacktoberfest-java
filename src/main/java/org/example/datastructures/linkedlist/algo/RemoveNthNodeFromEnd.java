@@ -1,3 +1,5 @@
+package org.example.datastructures.linkedlist.algo;
+
 class RemoveNthNodeFromEnd{
     public class ListNode{
         int val;

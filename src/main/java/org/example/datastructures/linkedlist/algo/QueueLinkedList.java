@@ -1,3 +1,5 @@
+package org.example.datastructures.linkedlist.algo;
+
 public class QueueLinkedList {
     static class Node{
          int data;

@@ -1,7 +1,9 @@
+package org.example.datastructures.linkedlist.algo;
+
 public class LinkedList {
     Node head;
     private int size;
-    linked_list(){
+    LinkedList(){
      this.size=0;
     }
     class Node{
@@ -91,7 +93,7 @@ public class LinkedList {
         return size;
     }
     public static void main(String[] args) {
-        linked_list list=new linked_list();
+        LinkedList list=new LinkedList();
         list.addFirst("a");
         list.addFirst("is");
         list.printList();

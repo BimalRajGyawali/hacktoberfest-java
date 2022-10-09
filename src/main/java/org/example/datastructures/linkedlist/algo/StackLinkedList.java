@@ -1,3 +1,5 @@
+package org.example.datastructures.linkedlist.algo;
+
 import java.util.Stack;
 
 public class StackLinkedList {
