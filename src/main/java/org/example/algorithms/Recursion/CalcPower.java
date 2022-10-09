@@ -1,3 +1,5 @@
+package org.example.algorithms.recursion;
+
 public class CalcPower {
     public static int calcPower(int x,int n) {
         if(n==0)//base case 1
