@@ -1,0 +1,13 @@
+//Encapsulation allows to limit our data modicication to only to authorised parties via proper channels
+
+public class RunEncapExample {
+
+   public static void main(String args[]) {
+      EncapExample encap = new EncapExample();
+      encap.setName("James");
+      encap.setAge(20);
+      encap.setIdNum("12343ms");
+
+      System.out.print("Name : " + encap.getName() + " Age : " + encap.getAge());
+   }
+}
