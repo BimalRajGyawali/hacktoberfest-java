@@ -6,7 +6,7 @@ The algorithm works as follows:
 ->Create a list of that vertex's adjacent nodes. Add the ones which aren't in the visited list to the back of the queue.
 ->Keep repeating steps 2 and 3 until the queue is empty.
  */
-
+package org.example.algorithms;
 import java.util.*;
 
 public class Graph {
