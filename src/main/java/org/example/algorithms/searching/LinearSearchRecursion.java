@@ -1,6 +1,6 @@
 package org.example.algorithms.searching;
 
-public class LinearSearch_recursion {
+public class LinearSearchRecursion {
      
         static int arr[] = { 5, 15, 6, 9, 4 };
      
