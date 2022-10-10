@@ -1,5 +1,7 @@
 // A Java program that finds the shortest path using Dijkstra's algorithm.  
-  
+// Dijkstra's algorithm implemented in Java
+//
+package org.example.algorithms;
 
 
 import java.util.*;  
