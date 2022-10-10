@@ -1,9 +1,9 @@
-package org.example.functionalProgramming;
+package org.example.functionalprogramming;
 
 import java.util.function.BiPredicate;
 import java.util.function.Predicate;
 
-public class _Predicate {
+public class PredicateExample {
     public static void main(String[] args) {
         System.out.println(isPhoneNumberValid.test("9198916644"));
 

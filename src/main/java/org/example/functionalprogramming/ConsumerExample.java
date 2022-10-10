@@ -1,9 +1,9 @@
-package org.example.functionalProgramming;
+package org.example.functionalprogramming;
 
 import java.util.function.BiConsumer;
 import java.util.function.Consumer;
 
-public class _Consumer {
+public class ConsumerExample {
     public static void main(String[] args) {
         // greetCustomer(new Customer("Maria", "123456789"));
 

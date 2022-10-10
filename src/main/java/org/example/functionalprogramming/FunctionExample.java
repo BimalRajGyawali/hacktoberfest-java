@@ -1,9 +1,9 @@
-package org.example.functionalProgramming;
+package org.example.functionalprogramming;
 
 import java.util.function.BiFunction;
 import java.util.function.Function;
 
-public class _Function {
+public class FunctionExample {
     public static void main(String[] args) {
         int incrementedValue = incrementByOneFunction.apply(1);
         System.out.println(incrementedValue);

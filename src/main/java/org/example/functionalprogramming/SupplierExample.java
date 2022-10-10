@@ -1,9 +1,9 @@
-package org.example.functionalProgramming;
+package org.example.functionalprogramming;
 
 import java.util.List;
 import java.util.function.Supplier;
 
-public class _Supplier {
+public class SupplierExample {
     public static void main(String[] args) {
         System.out.println(getDBConnectionURL.get());
         System.out.println(namesOfMonth.get());
