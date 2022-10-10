@@ -5,7 +5,7 @@
 
 package org.example.algorithms;
 
-public class PrimAlgorithmAdjacencyMatrix {
+public class PrimsAlgorithm{
 
     static class Graph{
 
