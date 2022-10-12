@@ -63,6 +63,13 @@ public class deque
             System.out.println(num+ " added to deque from front side");
         }
     }
+    public boolean isEmpty()
+    {
+        if(f==-1 && r==-1)
+            return true;
+        else
+            return false;
+    }
     public void removeFromFront()
     {
         if(isEmpty())
@@ -79,13 +86,7 @@ public class deque
             f=f+1;
         }
     }
-    public boolean isEmpty()
-    {
-        if(f==-1 && r==-1)
-            return true;
-        else
-            return false;
-    }
+    
     void display()
     {
         if(isEmpty())
