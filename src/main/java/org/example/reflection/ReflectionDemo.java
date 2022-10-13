@@ -19,7 +19,7 @@ public class ReflectionDemo {
 
     public static void main(String[] args) throws ClassNotFoundException {
         //Class.forName() throws ClassNotFoundException
-        Class student = Class.forName("org.example.reflection.Student");
+        Class<?> student = Class.forName("org.example.reflection.Student");
         //gives the array of methods declared in Student class
         Method[] methods = student.getDeclaredMethods();
 
@@ -30,6 +30,6 @@ public class ReflectionDemo {
                 .toList(); // all the sorted Method names are converted into list
 
         //method names in the list are printed
-        methodList.stream().forEach(System.out::println);
+        methodList.forEach(System.out::println);
     }
 }
