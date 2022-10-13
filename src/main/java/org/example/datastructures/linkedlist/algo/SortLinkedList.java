@@ -1,13 +1,13 @@
 package org.example.datastructures.linkedlist.algo;
 
 public class SortLinkedList{
-    node head;
-    node sorted;
-    class node 
+    Node head;
+    Node sorted;
+    class Node 
     {
         int val;
-        node next;
-        public node(int val) 
+        Node next;
+        public Node(int val) 
         {
             this.val = val;
         }
@@ -16,7 +16,7 @@ public class SortLinkedList{
     void push(int val) 
     {
         /* allocate node */
-        node newnode = new node(val);
+        Node newnode = new Node(val);
         /* link the old list off the new node */
         newnode.next = head;
         /* move the head to point to the new node */
@@ -24,17 +24,17 @@ public class SortLinkedList{
     }
   
     // function to sort a singly linked list using insertion sort
-    void insertionSort(node headref) 
+    void insertionSort(Node headref) 
     {
         // Initialize sorted linked list
         sorted = null;
-        node current = headref;
+        Node current = headref;
         // Traverse the given linked list and insert every
         // node to sorted
         while (current != null) 
         {
             // Store next for next iteration
-            node next = current.next;
+            Node next = current.next;
             // insert current in sorted linked list
             sortedInsert(current);
             // Update current
@@ -50,7 +50,7 @@ public class SortLinkedList{
      * can modify the head of the input linked list 
      * (similar to push())
      */
-    void sortedInsert(node newnode) 
+    void sortedInsert(Node newnode) 
     {
         /* Special case for the head end */
         if (sorted == null || sorted.val >= newnode.val) 
@@ -60,7 +60,7 @@ public class SortLinkedList{
         }
         else 
         {
-            node current = sorted;
+            Node current = sorted;
             /* Locate the node before the point of insertion */
             while (current.next != null && current.next.val < newnode.val) 
             {
@@ -72,7 +72,7 @@ public class SortLinkedList{
     }
   
     /* Function to print linked list */
-    void printlist(node head) 
+    void printlist(Node head) 
     {
         while (head != null) 
         {
