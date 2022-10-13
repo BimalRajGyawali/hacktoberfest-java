@@ -23,7 +23,7 @@ class Kruskal {
 
 	// A class to represent a subset for
 	// union-find
-	class subset {
+	class Subset {
 		int parent, rank;
 	};
 
@@ -42,7 +42,7 @@ class Kruskal {
 
 	// A utility function to find set of an
 	// element i (uses path compression technique)
-	int find(subset subsets[], int i)
+	int find(Subset subsets[], int i)
 	{
 		// find root and make root as parent of i
 		// (path compression)
@@ -55,7 +55,7 @@ class Kruskal {
 
 	// A function that does union of two sets
 	// of x and y (uses union by rank)
-	void Union(subset subsets[], int x, int y)
+	void union(Subset subsets[], int x, int y)
 	{
 		int xroot = find(subsets, x);
 		int yroot = find(subsets, y);
@@ -77,7 +77,7 @@ class Kruskal {
 
 	// The main function to construct MST using Kruskal's
 	// algorithm
-	void KruskalMST()
+	void kruskalMst()
 	{
 		// This will store the resultant MST
 		Edge result[] = new Edge[V];
@@ -97,9 +97,9 @@ class Kruskal {
 		Arrays.sort(edge);
 
 		// Allocate memory for creating V subsets
-		subset subsets[] = new subset[V];
+		Subset subsets[] = new Subset[V];
 		for (i = 0; i < V; ++i)
-			subsets[i] = new subset();
+			subsets[i] = new Subset();
 
 		// Create V subsets with single elements
 		for (int v = 0; v < V; ++v) {
@@ -113,7 +113,7 @@ class Kruskal {
 		while (e < V - 1) {
 			// Step 2: Pick the smallest edge. And increment
 			// the index for next iteration
-			Edge next_edge = edge[i++];
+			Edge nextEdge = edge[i++];
 
 			int x = find(subsets, next_edge.src);
 			int y = find(subsets, next_edge.dest);
@@ -122,8 +122,8 @@ class Kruskal {
 			// include it in result and increment the index
 			// of result for next edge
 			if (x != y) {
-				result[e++] = next_edge;
-				Union(subsets, x, y);
+				result[e++] = nextEdge;
+				union(subsets, x, y);
 			}
 			// Else discard the next_edge
 		}
@@ -185,6 +185,6 @@ class Kruskal {
 		graph.edge[4].weight = 4;
 
 		// Function call
-		graph.KruskalMST();
+		graph.kruskalMst();
 	}
 }
