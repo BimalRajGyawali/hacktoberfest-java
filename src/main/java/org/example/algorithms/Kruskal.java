@@ -31,7 +31,7 @@ class Kruskal {
 	Edge edge[]; // collection of all edges
 
 	// Creates a graph with V vertices and E edges
-	Graph(int v, int e)
+	public Kruskal(int v, int e)
 	{
 		V = v;
 		E = e;
@@ -115,8 +115,8 @@ class Kruskal {
 			// the index for next iteration
 			Edge nextEdge = edge[i++];
 
-			int x = find(subsets, next_edge.src);
-			int y = find(subsets, next_edge.dest);
+			int x = find(subsets, nextEdge.src);
+			int y = find(subsets, nextEdge.dest);
 
 			// If including this edge doesn't cause cycle,
 			// include it in result and increment the index
@@ -157,7 +157,7 @@ class Kruskal {
 				4	 */
 		int V = 4; // Number of vertices in graph
 		int E = 5; // Number of edges in graph
-		Graph graph = new Graph(V, E);
+		Kruskal graph = new Kruskal(V, E);
 
 		// add edge 0-1
 		graph.edge[0].src = 0;

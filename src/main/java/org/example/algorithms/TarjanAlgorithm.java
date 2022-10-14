@@ -1,3 +1,9 @@
+package org.example.algorithms;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 class Solution {
     public List<List<Integer>> criticalConnections(int n, List<List<Integer>> connections) {
         List<List<Integer>> graph = constructGraph(n,connections);
@@ -19,7 +25,7 @@ class Solution {
         return ans;
     }
     
-    private void tarjanAlgo(int currvertex, int[] time, int parent, List<List<Integer>> graph, int[] distime, int[]                                   lowtime, List<List<Integer>> ans){
+    private void tarjanAlgo(int currvertex, int[] time, int parent, List<List<Integer>> graph, int[] distime, int[] lowtime, List<List<Integer>> ans){
         
         distime[currvertex] = time[0];
         lowtime[currvertex] = time[0];
