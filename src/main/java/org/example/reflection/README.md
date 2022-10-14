@@ -12,8 +12,34 @@ There are 3 steps that must be followed to use these classes.
  2. The second step is to call a method such as `getDeclaredMethods`, to get a list of all the methods declared by the class.<br><br>
 
  3. Then the third step is to use the reflection API to manipulate the information.<br><br>
-     For example, the sequence:<br><br>
+     For example, the sequence:
 
-     `Class c = Class.forName("java.lang.String");` <br>
-     `Method m[] = c.getDeclaredMethods();`<br>
-     `System.out.println(m[0].toString());`
+````java
+    Class c = Class.forName("java.lang.String");
+    Method m[] = c.getDeclaredMethods();
+    System.out.println(m[0].toString());
+````
+
+## Field Modification
+
+Changing the data stored in the fields are possible through Reflections.
+<br>
+
+They can be marked `private`.
+<br>
+However, if the field is marked as `final`, in few of the cases, it may fail.
+
+````java
+// BestFruit is a class name we target, 
+// and 'name' is the private field
+
+Field field = BestFruit.class.getDeclaredField("name");
+
+// make the field accessible
+field.setAccessible(true);
+
+// use the set() method to make changes
+// to the field, fruit in out case is an instance of BestFruit
+        
+field.set(fruit, "Mango");
+````

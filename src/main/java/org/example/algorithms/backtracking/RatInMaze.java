@@ -1,3 +1,7 @@
+package org.example.algorithms.backtracking;
+
+import java.util.ArrayList;
+
 // m is the given matrix and n is the order of matrix
 class Solution {
     public static ArrayList<String> findPath(int[][] m, int n) {
