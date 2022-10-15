@@ -1,7 +1,7 @@
 package org.example.algorithms;  //Java program on concepts of Job sequencing Problem with DeadLine in Java using Greedy Algorithm
 
 import java.util.*;
-public class jobSequencing
+public class JobSequencing
 {
   public static void main(String args[])
   {

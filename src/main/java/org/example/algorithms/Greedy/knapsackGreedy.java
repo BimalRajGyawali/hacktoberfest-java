@@ -8,7 +8,7 @@ class KObject {
     float r;
 }
 
-public class knapsackGreedy {
+public class KnapsackGreedy {
     static final int MAX = 20;
     static int n;
     static float M;
