@@ -1,10 +1,9 @@
-/* Author : G Pala Venki Reddy */
+package org.example.algorithms;
 
 /* Topological Sort in Graphs in Java */
 
 import java.io.*;
 import java.util.*;
-package org.example.algorithms;
 
 public class TopologicalSort {
 
