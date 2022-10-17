@@ -1,4 +1,4 @@
-package org.example.switchExpression;
+package org.example.switchexpression;
 
 /**
  * @author rajeshp
