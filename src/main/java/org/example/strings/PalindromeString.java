@@ -1,5 +1,5 @@
 package org.example.strings;
-public class Palindrome {
+public class PalindromeString {
    
         public static boolean isPalindrome(String s) {
             String p = s.toLowerCase();
