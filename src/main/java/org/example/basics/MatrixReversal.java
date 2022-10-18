@@ -1,6 +1,5 @@
-import java.io.*;
-import java.util.*;
-class MatRev
+import java.util.Scanner;
+class MatrixReversal
 {
     private int arr[][];
     private int m;
@@ -12,7 +11,7 @@ class MatRev
         arr=new int[m][n];
     }
 
-    public void fillArray( )throws IOException
+    public void fillArray( )
     {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter matrix elements::");
@@ -56,7 +55,7 @@ class MatRev
         }
     }
 
-    public static void main(String args[])throws IOException
+    public static void main(String args[])
     {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter number of rows::");
