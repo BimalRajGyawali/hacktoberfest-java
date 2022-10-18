@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class mario 
+public class mirror 
 {
     public static void main (String args[]) 
     {
