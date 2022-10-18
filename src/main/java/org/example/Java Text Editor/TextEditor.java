@@ -1,3 +1,6 @@
+package org.example.javaTextEditor;
+
+
 import java.awt.*;
 import java.awt.datatransfer.StringSelection;
 
