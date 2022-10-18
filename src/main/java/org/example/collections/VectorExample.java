@@ -2,7 +2,7 @@ package org.example.collections;
 
 import java.util.*;  
 
-public class TestJavaCollection3{  
+public class VectorExample{  
 
   public static void main(String args[]){  
 
