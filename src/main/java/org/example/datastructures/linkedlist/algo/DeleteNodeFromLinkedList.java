@@ -1,13 +1,11 @@
 package org.example.datastructures.linkedlist.algo;
 
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode(int x) { val = x; }
- * }
- */
+// Definition for singly-linked list.
+ class ListNode {
+    int val;
+    ListNode next;
+    ListNode(int x) { val = x; }
+ }
 class DeleteNodeFromLinkedList {
     ListNode t;
     public void deleteNode(ListNode node) {
