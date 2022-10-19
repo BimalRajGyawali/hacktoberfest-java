@@ -1,3 +1,4 @@
+package org.example.algorithms;
 import java.util.*;
 
 public class MinimumMovesToEquilibrium {
