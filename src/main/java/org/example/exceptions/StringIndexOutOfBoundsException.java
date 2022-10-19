@@ -5,7 +5,7 @@ public class StringIndexOutOfBoundsException {
 
 	public static void main(String args[]) {
 		try {
-			String string = "Welcome to y world"; // length is 18
+			String string = "Welcome to my world "; // length is 20
 			char c = string.charAt(24); // accessing 25th element
 			System.out.println("Char: "+c);
 		} catch (StringIndexOutOfBoundsException e) {
