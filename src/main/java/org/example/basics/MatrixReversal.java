@@ -5,12 +5,6 @@ class MatrixReversal
     private int arr[][];
     private int m;
     private int n;
-    public MatRev(int mm, int nn)
-    {
-        m=mm;
-        n = nn;
-        arr=new int[m][n];
-    }
 
     public void fillArray( )
     {
@@ -39,7 +33,7 @@ class MatrixReversal
         {
             for(int j = 0; j < n; j++)
             {
-                this.arr[i] [j] = reverse(p.arr[i] [j]);
+                this.arr[i] [j] = reverse(p.arr[i][j]);
             }
         }
     }
@@ -65,13 +59,29 @@ class MatrixReversal
         int y = sc.nextInt();
         MatRev obj1 = new MatRev(x, y);
         MatRev obj2 = new MatRev(x, y);
-        obj1.fillArray();
-        obj2.revMat(obj1);
+        //obj1.fillArray();
+        //obj2.revMat(obj1);
         System.out.println("Original Matrix is::");
-        obj1.show();
+        //obj1.show();
         System.out.println("Matrix with reversed elements");
-        obj2.show();
+        //obj2.show();
     }
+
+    private static class MatRev {
+        int n;
+        int m;
+        int[][] arr;
+        public MatRev(int mm, int nn) {
+            m = mm;
+            n = nn;
+            arr = new int[m][n];
+        }
+
+        public void revMath() {
+
+        }
+    }
+
 }
 /* OUTPUT
  Enter number of rows::3

@@ -1,5 +1,5 @@
 package org.example.bitmanipulation;
-class CheckKthBit {
+class CheckSetBit {
     public static void main(String args[])
     {
       int n = 4;

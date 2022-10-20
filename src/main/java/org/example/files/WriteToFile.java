@@ -1,3 +1,5 @@
+package org.example.files;
+
 import java.io.*;
 import java.util.*;
 class WriteToFile{

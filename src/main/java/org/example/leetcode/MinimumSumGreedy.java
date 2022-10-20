@@ -1,4 +1,4 @@
-package org.example.leetcode
+package org.example.leetcode;
 import java.util.*;
 class MinimumSumGreedy{
     public static void main(String[] args) {
