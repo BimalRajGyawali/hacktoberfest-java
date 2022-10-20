@@ -5,12 +5,12 @@ public class StringSubstring {
 	{
 
 		// Initializing String
-		String Str = new String("Hello World.This is a Substring");
+		String str = new String("Hello World.This is a Substring");
 
 		// using substring() to extract substring
 		// returns ()geeksforgeeks
 	
 		System.out.println("The extracted substring is : ");
-		System.out.println(Str.substring(12));
+		System.out.println(str.substring(12));
 	}
 }
