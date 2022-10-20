@@ -1,3 +1,5 @@
+package org.example.javatexteditor;
+
 public class MyFileStack {
 	private int size;
 	private Node top;
