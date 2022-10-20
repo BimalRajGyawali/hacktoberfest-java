@@ -1,3 +1,4 @@
+package org.example.patterns;
 import java.io.*;
  
 public class CrownPatternExampleTwo
