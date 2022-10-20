@@ -18,7 +18,7 @@ The Collection framework represents a unified architecture for storing and manip
 
 ### Advantages of Collection framework
 
-------
+-----------
 
 - **Consistent API**: The API has a basic set of interfaces like Collection, Set, List, or Map, all the classes (ArrayList, LinkedList, Vector, etc.) that implement these interfaces have some common set of methods.
 
