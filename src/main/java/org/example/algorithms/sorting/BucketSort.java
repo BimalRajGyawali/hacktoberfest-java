@@ -1,3 +1,5 @@
+package org.examples.algorithms.sorting;
+
 import java.util.*;
 import java.util.Collections;
 
