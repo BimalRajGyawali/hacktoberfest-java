@@ -1,12 +1,14 @@
 package org.example.javatexteditor;
 
+import javafx.stage.FileChooser;
+
 import java.awt.*;
 import java.awt.datatransfer.StringSelection;
 
 import javax.swing.*;
 import javax.swing.filechooser.*;
 
-import javafx.stage.FileChooser;
+//import javafx.stage.FileChooser;
 
 import java.awt.event.*;
 import java.io.*;

@@ -1,7 +1,8 @@
 package org.example.bitmanipulation;
 class MissingNumberUsingXor{
   public static void main(String args[]) {
-    int[] arr = new int[] {1,2,3,5,6}
+    int[] arr = new int[] {1,2,3,5,6};
+    int n = arr.length;
     int xor1 =0;
     int xor2 =0;
     for(int i=1;i<=n;i++)

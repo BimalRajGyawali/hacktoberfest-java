@@ -1,6 +1,9 @@
 package org.example.basics;
 
-    public class ValidPangram
+import java.util.HashSet;
+import java.util.Set;
+
+public class ValidPangram
     {
         public static boolean isPangram(String sentence)
         {

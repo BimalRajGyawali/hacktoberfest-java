@@ -5,7 +5,7 @@ class MatrixReversal
     private int arr[][];
     private int m;
     private int n;
-    public MatRev(int mm, int nn)
+    public MatrixReversal(int mm, int nn)
     {
         m=mm;
         n = nn;
@@ -33,7 +33,7 @@ class MatrixReversal
         return rev;
     }
 
-    public void revMat(MatRev p)
+    public void revMat(MatrixReversal p)
     {
         for(int i = 0; i < m; i++) 
         {
@@ -63,8 +63,8 @@ class MatrixReversal
         int x = sc.nextInt();
         System.out.print("Enter number of columns::");
         int y = sc.nextInt();
-        MatRev obj1 = new MatRev(x, y);
-        MatRev obj2 = new MatRev(x, y);
+        MatrixReversal obj1 = new MatrixReversal(x, y);
+        MatrixReversal obj2 = new MatrixReversal(x, y);
         obj1.fillArray();
         obj2.revMat(obj1);
         System.out.println("Original Matrix is::");

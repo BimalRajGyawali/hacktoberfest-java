@@ -1,4 +1,4 @@
-package org.example.leetcode
+package org.example.leetcode;
 public class DiagonalMatrixSum {
    public static void main(String[] args) {
     int [][]mat = {{1,2,3},{4,5,6},{7,8,9}};
