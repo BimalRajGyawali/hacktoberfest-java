@@ -1,8 +1,9 @@
+package org.example.algorithms.recursion;
 // Printing All Poisible Permutation of Given String Using RECURSION
 
 import java.util.Scanner;
 
-public class Print_ALL_Permutation {
+public class printAllPermutation {
 
     private static void print(String s,String ans,int len,String x){
         if(len == ans.length()){
