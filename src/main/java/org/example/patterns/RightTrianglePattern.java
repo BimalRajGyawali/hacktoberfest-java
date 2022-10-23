@@ -5,6 +5,8 @@
 // Task: Create any pattern
 // Right Triangle Star Pattern
 
+package org.example.patterns;
+
 import java.util.Scanner;
 public class RightTrianglePattern   
 {   
