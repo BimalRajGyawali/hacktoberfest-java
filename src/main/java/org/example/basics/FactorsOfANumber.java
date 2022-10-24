@@ -6,7 +6,7 @@ package org.example.basics;
 import java.util.Scanner; // importing Scanner for taking input
 
 
-class factors{
+class FactorsOfANumber{
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int num = in.nextInt();
