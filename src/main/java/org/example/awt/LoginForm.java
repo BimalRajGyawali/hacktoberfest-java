@@ -1,8 +1,7 @@
-import javax.swing.*;  
 import java.awt.*;  
 import java.awt.event.*;  
 import java.lang.Exception;  
-class abc
+class LoginForm
 {  
    
     public static void main(String arg[])  
