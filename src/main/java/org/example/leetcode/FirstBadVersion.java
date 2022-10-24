@@ -12,7 +12,7 @@ public class Solution extends VersionControl {
                 r = mid-1;
             }
             else  l = mid + 1;
-            
+           
         }
          return ans;
     }
