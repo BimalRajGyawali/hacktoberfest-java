@@ -1,3 +1,6 @@
+package org.example.awt;
+
+
 import java.awt.*;  
 import java.awt.event.*;  
 import java.lang.Exception;  
