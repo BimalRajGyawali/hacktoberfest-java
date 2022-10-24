@@ -1,3 +1,5 @@
+package org.example.basics;
+
 class Main {
 
   public static void main(String[] args) {
