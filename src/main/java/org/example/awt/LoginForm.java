@@ -94,8 +94,8 @@ class CreateLoginForm extends JFrame implements ActionListener
             page.setVisible(true);  
              
            
-            JLabel wel_label = new JLabel("Welcome: "+userValue);  
-            page.getContentPane().add(wel_label);  
+            JLabel welLabel = new JLabel("Welcome: "+userValue);  
+            page.getContentPane().add(welLabel);  
         }  
         else{  
            
