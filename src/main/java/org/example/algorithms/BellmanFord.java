@@ -1,3 +1,4 @@
+package org.example.algorithms;
 import java.util.Scanner;
  
 public class BellmanFord
@@ -12,7 +13,7 @@ public class BellmanFord
         distances = new int[numberofvertices + 1];
     }
  
-    public void BellmanFordEvaluation(int source, int adjacencymatrix[][])
+    public void bellmanFordEvaluation(int source, int adjacencymatrix[][])
     {
         for (int node = 1; node <= numberofvertices; node++)
         {
