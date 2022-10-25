@@ -1,53 +1,44 @@
-package org.example.compressiontechniques;
+package org.example.compressiontechniques.huffmanencoder;
 
 import java.util.ArrayList;
 import java.util.PriorityQueue;
 
 public class HuffmanEncoder {
-    public OutputSingleton traverseHuffmanTree(Node root, String s, OutputSingleton output) {
+    public void traverseHuffmanTree(Node root, String s, OutputSingleton output) {
 
-        if (root.left
-                == null
-                && root.right
-                == null
-                && Character.isLetter(root.c)) {
-
-            output.update(root.c + ":" + s);
-            return output;
-
+        if (root.left == null && root.right == null && Character.isLetter(root.c)) {
+            output.update(root.c + ":" + s + " ");
+            return;
         }
         traverseHuffmanTree(root.left, s + "0", output);
         traverseHuffmanTree(root.right, s + "1", output);
-        return null;
     }
 
     public String compress(String str) {
         ArrayList<Character> charArray = new ArrayList<Character>();
         ArrayList<Integer> charFreq = new ArrayList<Integer>();
-        int n = str.length();
-
-        for (int i = 0; i < n; i++) {
-            int count = 1;
-            while (i < n - 1 && str.charAt(i) == str.charAt(i + 1)) {
-                count++;
-                i++;
+        int counter;
+        for (int i = 0; i < str.length(); i++) {
+            if (charArray.indexOf(str.charAt(i)) >= 0) {
+                continue;
             }
+            counter = 1;
             charArray.add(str.charAt(i));
-            charFreq.add(count);
+            for (int j = 1; j < str.length(); j++) {
+                if (str.charAt(i) == str.charAt(j)) {
+                    counter++;
+                }
+            }
+            charFreq.add(counter);
         }
-        PriorityQueue<Node> queue = new PriorityQueue<Node>(n, new NodeComparator());
-        for (int i = 0; i < n; i++) {
-
-
+        int charArrayLength = charArray.size();
+        PriorityQueue<Node> queue = new PriorityQueue<Node>(charArrayLength, new NodeComparator());
+        for (int i = 0; i < charArrayLength; i++) {
             Node node = new Node();
-
             node.c = charArray.get(i);
             node.data = charFreq.get(i);
-
             node.left = null;
             node.right = null;
-
-
             queue.add(node);
         }
         Node root = null;
@@ -68,7 +59,6 @@ public class HuffmanEncoder {
         traverseHuffmanTree(root, "", outputSingleton);
         return outputSingleton.getOutputString();
     }
-
 }
 
 

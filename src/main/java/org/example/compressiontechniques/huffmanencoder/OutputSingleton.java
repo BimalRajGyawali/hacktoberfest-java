@@ -1,7 +1,6 @@
-package org.example.compressiontechniques;
+package org.example.compressiontechniques.huffmanencoder;
 
 public final class OutputSingleton {
-
     private static OutputSingleton INSTANCE;
     private String output = "";
 
@@ -17,7 +16,7 @@ public final class OutputSingleton {
     }
 
     public void update(String c) {
-        output = output + c;
+        output = this.output + c;
     }
 
     public String getOutputString() {

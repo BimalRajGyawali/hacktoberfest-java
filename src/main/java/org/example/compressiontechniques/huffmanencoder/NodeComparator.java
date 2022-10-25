@@ -1,4 +1,4 @@
-package org.example.compressiontechniques;
+package org.example.compressiontechniques.huffmanencoder;
 
 import java.util.Comparator;
 
