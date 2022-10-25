@@ -1,4 +1,4 @@
-package org.example.compressiontechniques;
+package org.example.compressiontechniques.runlengthencoder;
 
 public class RunLengthEncoder {
     public String compress(String str) {
