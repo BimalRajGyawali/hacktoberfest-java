@@ -1,10 +1,11 @@
+package org.example.algorithms;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.LinkedList;
 import java.util.Queue;
  
-public class BreadthFirstSearch {
+public class BFS {
     // Function to perform breadth first search
     static void breadthFirstSearch(int[][] matrix, int source){
         boolean[] visited = new boolean[matrix.length];
