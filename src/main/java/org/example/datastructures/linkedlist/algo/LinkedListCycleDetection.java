@@ -1,3 +1,5 @@
+package org.example.datastructures.linkedlist.algo;
+
 import java.util.HashSet;
 import java.util.Set;
  
