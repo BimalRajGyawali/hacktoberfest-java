@@ -1,4 +1,5 @@
 //reversing of 32-bit Integer in range [-231, 231 - 1]
+package org.example.datastructures.arrays;
 
 public class solutionJava 
 {
