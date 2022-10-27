@@ -1,4 +1,8 @@
+package org.example.collections;
 import java.util.*;
+
+
+//Demo code of Comparator in java.
 
 class Student{
     private String name;
@@ -17,7 +21,7 @@ class Student{
 
 }
 
-public class ComparatorDemo
+public class Comparator
 {
     public static void main(String[] args){
         Scanner in = new Scanner(System.in);
