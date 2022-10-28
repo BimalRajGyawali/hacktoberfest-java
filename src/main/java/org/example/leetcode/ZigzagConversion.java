@@ -1,5 +1,5 @@
 package org.example.leetcode;
-
+//question number 6 on leetcode website
 public class ZigzagConversion {
     public static void main(String[] args) {
         String s="PAYPALISHIRING";
