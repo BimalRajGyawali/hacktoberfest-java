@@ -1,4 +1,6 @@
-class Solution
+package org.example.leetcode
+import java.util.*;
+class ProductArayExceptSelf
 {
     public int[] productExceptSelf(int[] nums)
     {

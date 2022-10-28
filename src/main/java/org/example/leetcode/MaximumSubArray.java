@@ -1,3 +1,4 @@
+package org.example.leetcode;
 class MaximumSubArray
 {
     public int maxSubArray(int[] nums)
