@@ -4,12 +4,12 @@ public class FibonacciSearch {
 
     public static void main(String[] args) {
         int[] array = {3, 5, 12, 34, 45, 67, 87, 90};
-        int search_result = search(array, 67);
+        int searchResult = search(array, 67);
 
-        if (search_result == -1) {
+        if (searchResult == -1) {
             System.out.println("Element not found.");
         } else {
-            System.out.println("Element found at index " + search_result);
+            System.out.println("Element found at index " + searchResult);
         }
     }
 
