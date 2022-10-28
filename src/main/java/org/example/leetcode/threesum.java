@@ -2,7 +2,6 @@ package org.example.leetcode;
 
 import java.util.Arrays;
 import java.util.HashSet;
-//question number 15
 public class threesum {
     public static void main(String[] args) {
         int[] arr={-1,0,1,2,4}
