@@ -1,5 +1,4 @@
-package org.example.leetcode;
-
+package org.example.leetcode
 public class MajorityElement {
     public int majorityElement(int[] nums) {
 
