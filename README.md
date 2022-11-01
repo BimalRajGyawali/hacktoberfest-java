@@ -1,5 +1,5 @@
 ```diff 
-- This repo is longer accepting pull requests as Hacktoberfest has ended. 
+- This repo is longer accepting pull requests as Hacktoberfest 2022 has come to an end. 
 + Thanks for your contribution.
 ```
 # Welcome to `Hacktoberfest-Java`
