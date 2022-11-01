@@ -1,3 +1,6 @@
+```diff 
+- This repo is longer accepting pull requests as Hacktoberfest has ended. Thanks for your contribution.
+```
 # Welcome to `Hacktoberfest-Java`
 
 ## Description 
